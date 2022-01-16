@@ -7,6 +7,7 @@ import Slider from "./Carousel";
 import ToTeam from "./ToTeam";
 import FormFinal from "./FormFinal";
 import Footer from "./Footer";
+import './HomePage.css'
 
 function HomePage() {
     return (

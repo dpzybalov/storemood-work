@@ -9,8 +9,8 @@ import StepImg4 from '../../../assets/img/Step/StepImg4.svg';
 
 function Steps() {
     return (
-        <Container>
-            <h2>4 шага до работы</h2>
+        <Container className={'section'}>
+            <h2 style={{fontSize: 44, marginBottom: 50}}>4 шага до работы</h2>
             <Row>
                 <StepsItem src={StepImg1} header={'регистрация'} description={'выбор вакансии в вашем городе'}/>
                 <StepsItem src={StepImg2} header={'собеседование'} description={'личная встреча или по Skype/Zoom'}/>

@@ -1,0 +1,79 @@
+
+h1, h2, h3 {
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Segoi ui;
+}
+
+h1 {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.section {
+    margin: 65px 0 100px 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.formdescription:after {
+    content: '';
+    border-bottom: 1px solid #888893;
+    width: 70%;
+    height: 1px;
+    display: inline-block;
+}
+
+.Footer {
+    background-color: #282828;
+    color: white;
+}
+
+.social img {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.formerror {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding-bottom: 5px;
+    color: #FF0000;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+
+.PhoneInputCountry {
+    display: none;
+}
+
+.PhoneInputInput {
+    background-color: #E5EAF1;
+    padding: 16px 40px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Segoi ui';
+    margin: 0 auto 20px auto;
+    width: 90%;
+    color: #212529;
+    border: 0px;
+}
